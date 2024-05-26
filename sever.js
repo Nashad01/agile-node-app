@@ -1,1 +1,14 @@
-console.log("ddddddd");
+const express = require("express");
+const app = express();
+
+app.use(express.json());
+
+app.get("/",(req,res) =>{
+    res.status(200).json({
+        name: "agaile-node-nodemon-dev-sav-npm-balagal"
+    })
+});
+
+app.listen(3000,() =>{
+    
+})
