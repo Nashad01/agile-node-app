@@ -13,7 +13,7 @@ app.get("/Student",(req,res)=>{
     res.status(200).json([{
         name: "Tiya",
         age: "22",
-        city: "Banglore",
+        city: "Banglore"
     },
     {
         name: "Riya",
@@ -21,8 +21,6 @@ app.get("/Student",(req,res)=>{
         city: "Mumbai"
     }
 ])
-})
+});
 
-app.listen(3000,() =>{
-    
-})
+app.listen(3000);
