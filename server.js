@@ -3,24 +3,12 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/",(req,res) =>{
+app.get("/",(req,res)=>{
     res.status(200).json({
-        name: "agaile-node-nodemon-dev-sav-npm-balagal"
+        name:"agile-node-app-balagal-ulabe-kamalehi"
     })
-});
+})
 
-app.get("/Student",(req,res)=>{
-    res.status(200).json([{
-        name: "Tiya",
-        age: "22",
-        city: "Banglore"
-    },
-    {
-        name: "Riya",
-        age: 23,
-        city: "Mumbai"
-    }
-])
-});
-
-app.listen(3000);
+app.listen(3000,() =>{
+    
+})
