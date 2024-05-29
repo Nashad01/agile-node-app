@@ -9,6 +9,21 @@ app.get("/",(req,res)=>{
     })
 })
 
+app.get("/Student",(req,res)=>{
+    res.status(200).json([
+    {
+        name: "Tushar",
+        age: 23,
+        city:"Mumbai"
+    },
+    {
+        name: "Blodti",
+        age: 32,
+        city: "Chennai"
+    }
+])
+})
+
 app.listen(3000,() =>{
     console.log("soletsbegin something that never been begin");
     
