@@ -10,5 +10,6 @@ app.get("/",(req,res)=>{
 })
 
 app.listen(3000,() =>{
+    console.log("soletsbegin something that never been begin");
     
 })
